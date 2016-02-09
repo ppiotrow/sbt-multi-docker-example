@@ -1,7 +1,6 @@
 import com.typesafe.sbt.SbtNativePackager._
 import com.typesafe.sbt.packager.Keys._
 import sbt.Keys._
-import sbt._
 
 object Settings {
   lazy val common = Seq(

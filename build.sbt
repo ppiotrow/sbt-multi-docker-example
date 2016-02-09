@@ -7,7 +7,7 @@ lazy val job = Project("job", file("job"))
   .settings(FooJobDocker.settings)
   .enablePlugins(JavaAppPackaging, DockerPlugin)
   .dependsOn(common)
-  
+
 lazy val api = Project("api", file("api"))
   .settings(
     name := "goo-api",
